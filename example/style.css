@@ -1,0 +1,59 @@
+img{
+    float: right;
+}
+a{
+    float: right;
+}
+body {
+    background-image: linear-gradient(to bottom, #69dee4, #ede8ef);
+    margin: 0; /* Remove default margin for better layout (optional) */
+    height: 100vh; /* Optional: Set full viewport height */
+  }
+  .anchor-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #69dee4;
+    background-color: #69dee4;
+  }
+  
+  /* Optional styles for the anchor tag itself (adjust as needed): */
+  .anchor-container a {
+    padding: 10px; /* Add some padding for better visibility */
+    background-color: #eee; /* Add a subtle background color */
+  }
+img{
+    border-radius:900px;
+}
+
+.top-right-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Optional styles for the clickable element (link) itself: */
+.top-right-container a {
+  padding: 10px; /* Add some padding for better visibility */
+  background-color: #63dee0; /* Add a subtle background color */
+}
+body{
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+footer{
+  font-style: italic;
+  font-size: large;
+  text-align: center;
+}

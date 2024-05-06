@@ -1,0 +1,48 @@
+.form-container {
+    background-image: linear-gradient(rgb(162, 234, 234),white); /* Semi-transparent white */
+    backdrop-filter: blur(5px); /* Blur effect */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Optional padding for spacing */
+    margin: 0 auto; /* Center the form horizontally */
+    width: 300px; /* Adjust width as needed */
+    display: flex; /* Enable flexbox for centering content */
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .form-container h2 {
+    margin-bottom: 10px; /* Spacing for the heading */
+  }
+  
+  .form-container label {
+    display: block; /* Display labels on their own line */
+    margin-bottom: 5px; /* Spacing between label and input */
+  }
+  
+  .form-container input,
+  .form-container button {
+    width: 100%; /* Make input fields and button full width */
+    padding: 10px;
+    border: none; /* Remove default borders */
+    border-radius: 4px; /* Rounded corners for inputs and button */
+    background-color: #a5e6e2; /* Light background color for inputs */
+    color: #333; /* Text color */
+  }
+  
+  .form-container button {
+    background-color: #000000; /* Blue color for button */
+    color: #fff; /* White text for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .form-container button:hover {
+    background-color: #007bff; /* Darker blue on hover */
+  }
+  body{
+    background-image: linear-gradient(rgb(148, 231, 231),white);
+    margin: opx;
+    height: 100vh;
+
+  }
+  

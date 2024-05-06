@@ -1,0 +1,21 @@
+h1{
+    color: rgb(3, 23, 23);
+
+}
+linearGradient{
+    (red,aqua)
+}
+body {
+  background-image: linear-gradient(to bottom right, #f0f0f0, #008CBA);
+  margin: 0; /* Remove default margin for better layout */
+  background-image: linear-gradient(to bottom left, #f0f0f0, #4ac9f3);
+  margin: 0;
+}
+header{
+  image-orientation:flip;
+
+}
+
+textarea{
+  color: #008CBA;
+}
