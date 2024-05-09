@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(228, 45%, 44%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+   
+}
+.main{
+    background-color: rgb(237, 245, 252);
+    border-radius: 10px;
+    display: flex;
+    height:max-content;
+    padding-left: 20px;
+    width: max-content;
+   
+    
+
+}
+
+
+img{
+    height: 400px;
+    padding: 10px ;
+}
+h1{
+    padding-top: -20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.add
+{
+    padding-left: 100px;
+    padding-top:25px
+}

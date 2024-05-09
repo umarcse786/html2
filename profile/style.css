@@ -1,0 +1,41 @@
+
+.he{
+  display: flex;
+  font-weight: 100;
+  font-size: 25px;
+}
+.ele2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+.icon{
+  display: flex;
+  justify-content:space-evenly;
+  justify-content: end;
+  gap: 20px;
+}
+body{
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+height: 100vh;
+
+}
+.bu
+{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: #E0C3FC;
+ 
+
+}
+img{
+  height: 150px;
+  border-radius:50px;
+}
+
+
+
